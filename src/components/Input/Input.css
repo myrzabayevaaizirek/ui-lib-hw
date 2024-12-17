@@ -1,0 +1,40 @@
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4px; /* Отступ между лейблом и инпутом */
+    max-width: 300px; /* Ограничение ширины */
+  }
+  
+  .label {
+    font-weight: 500;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .label.danger {
+    color: red;
+  }
+  
+  .input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.2s;
+    outline: none;
+  }
+  
+  .input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.2);
+  }
+  
+  .input.danger {
+    border-color: red;
+    color: red;
+  }
+  
+  .input.danger:focus {
+    box-shadow: 0 0 4px rgba(255, 0, 0, 0.4);
+  }
+  

@@ -1,0 +1,31 @@
+.btn {
+    font-family: 'Inter', sans-serif;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn.primary {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .btn.primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn.bordered {
+    border: 2px solid #007BFF;
+    color: #007BFF;
+    background: transparent;
+  }
+  
+  .btn.bordered:hover {
+    border-color: #0056b3;
+    color: #0056b3;
+  }
+  
+  .btn.sm { padding: 5px 10px; font-size: 12px; }
+  .btn.md { padding: 8px 15px; font-size: 14px; }
+  .btn.lg { padding: 12px 20px; font-size: 18px; }
+  
